@@ -8,7 +8,7 @@ cask "lofi-focus" do
   homepage "https://github.com/SurfGoffDude/LofiFocus"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe" # macOS 26
+  depends_on macos: :tahoe # macOS 26 or newer
 
   app "Lofi Focus.app"
 
